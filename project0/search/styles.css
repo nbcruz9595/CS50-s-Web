@@ -1,0 +1,110 @@
+body {
+    font-family: Futura, Trebuchet MS, Arial, san-serif;
+    color: #202124;
+  }
+
+
+h1 {
+    font-size: 42pt;
+    margin: 5px;
+  }
+
+
+.navbar {
+    text-align: right;
+  }
+
+  .navbar li {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .navbar a {
+    color: #202124;
+  }
+
+  .navbar a, .navbar a:active, .navbar a:hover, .navbar a:visited {
+    text-decoration: none;
+  }
+  .navbar a:active, .navbar a:hover {
+    text-decoration: underline;
+  }
+
+  .searchbar {
+    border-color: #888888;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .searchbar {
+      width: 90%;
+    }
+  }
+
+  .searchbar-sm {
+    border-radius: 5px;
+    display: block;
+    margin: 7px;
+    padding: 7px;
+    width: 500px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .searchbar-sm {
+      width: 90%;
+    }
+  }
+
+  .searchbutton{
+    display:inline-block;
+    background-color: #F8F9FA;
+    border-style: none;
+    margin: 11px 4px;
+    padding: 8px 16px;
+
+  }
+
+  .searchbutton:hover {
+    background-color: #b3b5b6;
+    border-style:none
+    margin: 11px 4px;
+    padding: 8px 16px;
+  }
+
+
+.text-input-table {
+    margin: 15px 45px;
+  }
+  .text-input-table tr {
+    font-size: 10pt;
+  }
+  .text-input-table tr td .searchbutton {
+    float: right;
+    background-color: #4D90FE;
+    color: #FFFFFF;
+  }
+
+  .center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#center_group {
+  position: absolute;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  .searchbar:hover, .searchbar:focus, .searchbar-sm:hover, .searchbar-sm:focus, .searchbutton:hover {
+    box-shadow: 0 0 1px 1px #888888;
+    outline: none;
+  }
