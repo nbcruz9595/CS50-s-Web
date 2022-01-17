@@ -1,2 +1,4 @@
 # CS50-s-Web
-CS50's Web Programming with Python and JavaScript
+
+This repo keeps track of projects done when taking the course CS50's Web Programming with Python and JavaScript. 
+
